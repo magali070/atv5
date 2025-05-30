@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://th.bing.com/th/id/R.0ae20f79ab16ae11ff660285c0267150?rik=seFSjKLbU%2fdPYA&pid=ImgRaw&r=0">
+        <h1><strong>Cadastro do Cliente</strong></h1>
+        <form action="outra-pagina.html" onsubmit="alert('Cadastro enviado!');" autocomplete="on">
+        
+
+        <label><h2>Digite Seu Nome</h2></label>
+        <input type="text" name="name" placeholder="Nome" required /></br>
+        <label><h2>Digite Seu Email</h2></label>
+        <input type="email" name="email" placeholder="Email" required /></br>
+        <label><h2>Nos Passe Seu Número</h2></label>
+        <input type="number" name="numero" placeholder="Número" required /></br>
+        <label><h2>Quais Suas Preferencias</h2></label>
+        <input type="text" name="Informações" placeholder="Preferencias" required /></br>
+        <h1>Pedido</h1>
+        <h2>Tamanho da pizza</h2>
+        <h3>Pequena</h3>
+        <input type="radio" name="Tamanho" value="Pequena">
+        <h3>Média</h3>
+        <input type="radio" name="Tamanho" value="Média">
+        <h3>Grande</h3>
+        <input type="radio" name="Tamanho" value="Grande">
+        <h2>Sabores: </h2>
+        <input type="checkbox" name="Sabores" placeholder="Margherita">
+        <label>Margherita</label></br>
+        <input type="checkbox" name="Sabores" placeholder="Calabresa">
+        <label>Calabresa</label></br>
+        <input type="checkbox" name="Sabores" placeholder="Portuguesa">
+        <label>Portuguesa</label></br>
+        <input type="checkbox" name="Sabores" placeholder="Quatro Queijos">
+        <label>Quatro Queijos</label></br>
+        <input type="checkbox" name="Sabores" placeholder="Frango com Catupiry">
+        <label>Frango com Catupiry</label></br>
+        <h2>Borda Recheada</h2>
+        <br>
+        <input type="radio" name="borda" value="Sim">
+        <label for="borda">Sim</label>
+        <br>
+        <input type="radio" name="borda" value="Não">
+        <label for="borda">Não</label>
+        <br>
+        <br>
+        <h2>Bebida</h2>
+        <select name="Bebida">
+            <option value="Nenhuma"> Nenhuma</option>
+            <option value="Refrigerante"> Refrigerante</option>
+            <option value="Suco"> Suco</option>
+            <option value="Água"> Água</option>
+        </select>
+        <h2> Instruções para entrega:</h2>
+        <textarea name="Instruções" rows="4" cols="40"></textarea>
+
+        <br><br>
+
+        <button type="submit">Enviar Pedido</button>
+
+        <footer>
+            <p> Este site é fictício, desenvolvido para fins educacionais.</p>
+        </footer>
+
+
+    </body>
+</html
